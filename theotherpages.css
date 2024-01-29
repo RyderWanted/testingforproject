@@ -1,0 +1,656 @@
+* {
+
+    margin: 0px auto;
+    max-width: 1920px;
+    max-height: 2200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+
+    display: none;
+}
+
+.energypage html::-webkit-scrollbar {
+
+    display: none;
+}
+
+body {
+
+    background-image: url(home\ assets/bodybackground.jpg);
+    background-color: rgba(14, 112, 9, 0.697);
+    z-index: 0;
+
+}
+
+header {
+
+    background-color: rgba(191, 237, 172, 0.752);
+    text-align: center;
+    z-index: 1;
+    max-width: 1380px;
+    width: 1380px;
+    position: relative;
+    height: 310px;
+}
+
+header img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+main {
+
+    z-index: 2;
+    background-color: rgba(255,255,255, 0.9);
+    position: relative;
+    bottom: 60px;
+    height: 2200px;
+    max-width: 1380px;
+    width: 1380px;
+
+}
+
+.surveypage {
+
+    max-width: 1380px;
+    width: 1380px;
+
+}
+
+.surveypage p {
+
+    max-width: 1380px;
+    width: 1380px;
+}
+
+main img {
+
+    width: 600px;
+    height: 300px;
+    left: 390px;
+    position: relative;
+
+}
+
+main p {
+
+    max-width: 1300px;
+
+}
+
+.energypage .end {
+
+    position: relative;
+    bottom: 70px;
+}
+
+.energypage p {
+
+    font-size: 22px;
+    position: relative;
+    bottom: 30px;
+}
+
+.energypage ul li {
+
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main h2 {
+
+    text-align: center;
+}
+
+.further {
+
+    width: 220px;
+    height: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-shadow: 2px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    left: 400px;
+
+}
+
+.further:hover {
+
+    box-shadow: inset;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: darkgreen;
+    transition-duration: 0.9984721110051113s;
+    border: 2px solid darkgreen;
+
+}
+
+hr {
+
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    width: 550px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+main p {
+
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+    padding-top: 5px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.energypage p a {
+
+    color: black;
+    font-weight: bold;
+
+}
+
+.foodpage {
+
+    height: 1350px;
+}
+
+.suspage {
+
+    height: 1330px;
+}
+
+.suspage p a {
+
+    color: black;
+    font-weight: bold;
+}
+
+.suspage li {
+
+    font-size: 18px;
+    width: 996px;
+
+}
+
+.techpage {
+
+    height: 1400px;
+}
+
+
+main p span {
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.end {
+
+    max-width: 1380px;
+    position: relative;
+    bottom: 20px;
+}
+.end button {
+
+    
+    position: relative;
+    left: 570px;
+}
+
+.surveypage .end {
+
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+
+.end p {
+
+    text-align: center;
+}
+
+.susend {
+
+    bottom: 50px;
+    position: relative;
+}
+
+header button {
+
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    color: darkgreen;
+    position: relative;
+    right: 600px;
+    top: 20px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    
+
+}
+
+header button:hover {
+
+    background-color: darkgreen;
+    color: white;
+    cursor: default;
+    transition: 0.99211510005s;
+
+}
+
+
+
+.sidenavig {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenavig a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkgreen;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidenavig a:hover {
+
+    color: palegreen;
+}
+
+.sidenavig .closebutton {
+
+    position: absolute;
+    top: 5px;
+    font-size: 55px;
+    left: 160px;
+
+}
+
+.surveypage video {
+
+    position: relative;
+    top: 20px;
+    left: 400px;
+    width: 600px;
+    height: 400px;
+
+}
+
+.surveypage section .qatarvis2030 {
+
+    width: 360px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.surveypage section .investment {
+
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.surveypage section .opinionsus {
+
+    width: 380px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.surveypage section .practice {
+
+    width: 500px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.surveypage section .learn {
+
+    width: 360px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.surveypage section .suslife {
+
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
+
+.surveypage .continue {
+
+    position: relative;
+    width: 1380px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+.surveypage {
+
+    height: 2000px;
+}
+
+.energypage h2 {
+
+    position: relative;
+    bottom: 20px;
+}
+
+@media screen and (max-height:300px) {
+    .sidenavig {padding-top: 15px;}
+    .sidenavig a {font-size: 18px;}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    * {
+
+        max-width: 480px;
+        max-height: 4000px;
+        box-sizing: border-box;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    header {
+
+        max-width: 480px;
+        width: 400px;
+
+    }
+
+    main {
+
+        max-width: 480px;
+        width: 400px;
+        height: 4000px;
+    }
+
+    html {
+
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    html::-webkit-scrollbar {
+
+        display: none;
+    }
+
+    .energypage h2 {
+
+        position: relative;
+        bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .energypage img {
+
+        position: relative;
+        left: 5px;
+        width: 380px;
+    }
+
+    .energypage .end button {
+
+         position: relative;
+         left: 85px;
+
+    }
+
+    .suspage img {
+
+        position: relative;
+        left: 5px;
+        width: 380px;
+    }
+
+    .suspage {
+
+        height: 2100px;
+    }
+
+    .suspage .end button {
+
+        position: relative;
+        left: 85px;
+    }
+
+    .techpage img {
+
+        position: relative;
+        left: 5px;
+        width: 380px;
+    }
+
+    .techpage {
+
+        height: 2400px;
+    }
+
+    .techpage .end button {
+
+        position: relative;
+        left: 85px;
+    }
+
+    .foodpage img {
+
+        position: relative;
+        left: 5px;
+        width: 380px;
+    }
+
+    .foodpage {
+
+        height: 2500px;
+    }
+
+    .foodpage .end button {
+
+        position: relative;
+        left: 85px;
+    }
+
+    /* all of this under is for the survey page */
+
+    .surveypage img {
+
+        position: relative;
+        left: 90px;
+        width: 380px;
+    }
+
+
+    .surveypage {
+
+        height: 1360px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .surveypage h2 {
+
+        padding-right: 10px;
+        padding-left: 10px;
+        position: relative;
+        left: 30px;
+        width: 400px;
+    }
+
+
+    .surveypage video {
+
+        position: relative;
+        left: 0;
+    }
+
+    .surveypage .end button {
+
+        position: relative;
+        left: 85px;
+    }
+
+    .surveypage {
+
+        max-width: 480px;
+        width: 480px;
+        right: 80px;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .surveypage p {
+
+        width: 400px;
+        position: relative;
+        left: 40px;
+    }
+
+    .surveypage section .qatarvis2030 {
+
+        position: relative;
+        left: 100px;
+    }
+
+    .surveypage section .investment {
+
+        position: relative;
+        left: 100px;
+        width: 360px;
+    }
+
+    .surveypage section .practice {
+
+        position: relative;
+        width: 360px;
+        left: 100px;
+    }
+
+    .surveypage section .opinionsus {
+
+        position: relative;
+        width: 360px;
+        left: 100px;
+        top: 25px;
+    }
+
+    .surveypage section .learn {
+
+        position: relative;
+        width: 360px;
+        left: 100px;
+        top: 25px;
+    }
+
+    .surveypage section .suslife {
+
+        position: relative;
+        width: 360px;
+        left: 100px;
+        top: 25px;
+    }
+
+    .surveypage .continue {
+
+        position: relative;
+        width: 400px;
+        left: 45px;
+    }
+
+    .surveypage video {
+
+        position: relative;
+        width: 360px;
+        height: 250px;
+        left: 100px;
+        top: 45px;
+    }
+
+    .surveypage .end {
+
+        position: relative;
+
+    }
+
+    .surveypage .end button {
+
+        position: relative;
+        left: 145px;
+    }
+
+    .surveypage .end hr {
+
+        position: relative;
+        width: 300px;
+        left: 15px;
+    }
+
+    .surveypage .end p {
+
+        position: relative;
+        left: 20px;    
+    }
+}

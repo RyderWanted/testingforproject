@@ -1,0 +1,435 @@
+* {
+
+    margin: 0px auto;
+    max-width: 1920px;
+    max-height: 1400px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    max-width: 1920px;
+    max-height: 1400px;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+
+    display: none;
+}
+
+body {
+
+    background-image: url(home\ assets/bodybackground.jpg);
+    background-color: rgba(14, 112, 9, 0.697);
+    z-index: 0;
+    max-width: 1200px;
+
+}
+
+header {
+
+    background-color: rgba(191, 237, 172, 0.752);
+    text-align: center;
+    z-index: 1;
+    max-width: 1380px;
+    position: relative;
+    left: 0;
+    right: 178px;
+    height: 310px;
+}
+
+header img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+main {
+
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.9);
+    position: relative;
+    bottom: 60px;
+    height: 1220px;
+    max-width: 1200px;
+
+}
+
+main img {
+
+    width: 480px;
+    height: 300px;
+
+}
+
+section {
+
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+.setimages img {
+
+    width: 450px;
+    height: 250px;
+
+}
+
+.edit {
+
+    position: relative;
+    left: 25px;
+}
+
+.setimages2 img {
+
+    width: 450px;
+    height: 250px;
+
+}
+
+.setimages p {
+
+    position: relative;
+    top: 255px;
+    right: 250px;
+    color: darkgreen;
+    font-weight: bold;
+
+}
+
+.setimages2 p {
+
+    position: relative;
+    top: 255px;
+    right: 250px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+.setimages p a:hover {
+
+    color: limegreen
+}
+
+.setimages2 p a:hover {
+
+    color: limegreen;
+}
+ 
+.setimages a:visited {
+
+    color: darkgreen;
+
+}
+
+.setimages2 a:visited {
+
+    color: darkgreen;
+}
+
+.further {
+
+    width: 150px;
+    height: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-shadow: 2px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+
+}
+
+.furtherlinks {
+
+    width: 150px;
+    height: 70px;
+    margin-top: 195px;
+    font-size: 20px;
+    text-shadow: 2px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+
+.further:hover {
+
+    box-shadow: inset;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    color: darkgreen;
+    transition-duration: 0.9984721110051113s;
+    border: 2px solid darkgreen;
+
+}
+
+.homeend {
+
+    position: relative;
+    bottom: 75px;
+}
+
+hr {
+
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    width: 550px;
+    margin-top: 45px;
+
+}
+
+main p {
+
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+main p span {
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header button {
+
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    color: darkgreen;
+    position: relative;
+    right: 500px;
+    top: 20px;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    
+    
+
+}
+
+header button:hover {
+
+    background-color: darkgreen;
+    color: white;
+    cursor: default;
+    transition: 0.99211510005s;
+
+}
+
+.sidenavig {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+
+}
+
+.sidenavig a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkgreen;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sidenavig a:hover {
+
+    color: palegreen;
+}
+
+.sidenavig .closebutton {
+
+    position: absolute;
+    top: 5px;
+    font-size: 55px;
+    left: 160px;
+
+}
+
+.mobimages {
+
+    display: none;
+
+}
+
+
+@media screen and (max-height:300px) {
+    .sidenavig {padding-top: 15px;}
+    .sidenavig a {font-size: 18px;}
+}
+/* Responsive adjustments for mobile devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    html {
+
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        
+    }
+
+    html::-webkit-scrollbar {
+
+        display: none;
+
+    }
+
+
+    header {
+
+        max-width: 480px;
+        width: 480px;
+        position: relative;
+        right: 400px;
+
+    }
+
+    header h1 {
+
+        position: relative;
+        right: 50px;
+    }
+
+    header h3 {
+
+        position: relative;
+        right: 45px;
+        bottom: 15px;
+    }
+
+    header img {
+
+        position: relative;
+        right: 55px;
+    }
+
+    .mobimages {
+
+        display: block;
+    }
+
+    .mySlides {
+
+        position: relative;
+        width: 350px;
+        right: 45px;
+        top: 20px;
+
+    }
+
+    .setimages, .setimages2 {
+
+        display: none;
+    }
+
+    header button {
+
+        display:block;
+        left: -170px;
+        top: 15px;
+        width: 130px;
+    }
+
+    main {
+
+        max-width: 480px;
+        width: 480px;
+        position: relative;
+    }
+
+    main h2 {
+
+        position: relative;
+        right: 50px;
+        font-size: 22px;
+    }
+    
+    main p {
+
+        position: relative;
+        right: 49px;
+        width: 380px;
+        text-align: justify;
+        font-size: 19px;
+    }
+
+    main img {
+
+        width: 350px;
+        position: relative;
+        right: 45px;
+    }
+
+    .homeend {
+
+        position: relative;
+        width: 400px;
+        right: 25px;
+        bottom: 65px;
+
+    }
+
+    .homeend .further {
+
+        position: relative;
+        right: 22px;
+        bottom: 30px;
+    }
+
+    .homeend hr {
+
+        width: 350px;
+        position: relative;
+        right: 20px;
+        bottom: 30px;
+
+    }
+
+    .homeend p {
+
+        width: 350px;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        right: 15px;
+        bottom: 28px;
+        text-align: center;
+    }
+
+    
+}
+
